@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 
 
 const CardForm = props => {
-console.log(props);
+
     const dispatch = useDispatch();
     const [title, setTitle] = useState('');
     const handleSubmit = e => {
