@@ -17,7 +17,7 @@ const SearchForm = () => {
     console.log(inputValue);
 
     return (
-        <form className={styles.SearchForm} onSubmit={handleSubmit}>
+        <form className={styles.searchForm} onSubmit={handleSubmit}>
            <TextInput placeholder="Search..."  onChange={(e)=> setInputValue(e.target.value)} />
            <Button><span className="fa fa-search" /></Button>
         </form>
