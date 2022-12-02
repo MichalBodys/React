@@ -11,7 +11,7 @@ const List = (props) => {
   const columns = useSelector(getAllColumns);
   const lists = useSelector(getAllLists)
 
-  // const listData = useSelector(state => getListById(lists, listId));
+  // const listData = useSelector(state => getListById(state, listId));
 
 	return (
     <div className={styles.list}>
