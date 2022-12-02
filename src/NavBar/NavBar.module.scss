@@ -7,7 +7,7 @@ nav{
 }
 
 .icon{
-    margin: auto 10px;
+    margin: auto .5rem;
     color: $color-light;
 }
 
@@ -21,11 +21,15 @@ nav{
         list-style: none;
         display: flex;
         gap: 1rem;
+        text-decoration:none;
 
-        .link{
-            color: $color-light;
+        a{
             text-decoration: none;
         }
 
+    }
+
+    .linkActive {
+        color: $color-warning;
     }
 }
