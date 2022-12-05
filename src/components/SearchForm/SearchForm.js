@@ -11,8 +11,6 @@ const SearchForm = () => {
     const handleSubmit = e => {
         e.preventDefault()
         dispatch(updateSearchString(inputValue))
-
-
     }
     console.log(inputValue);
 
