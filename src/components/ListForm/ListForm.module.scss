@@ -1,0 +1,15 @@
+@import '/src/Styles/settings.scss';
+
+.listForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+
+
+    .title{
+        font-weight: bold;
+         margin: 10px;
+    }
+}

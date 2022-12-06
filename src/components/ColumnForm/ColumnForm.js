@@ -15,7 +15,6 @@ const ColumnForm = props => {
         setTitle('');
         setIcon('');
 
-        console.log(props.listId);
     }
 
 	return (
