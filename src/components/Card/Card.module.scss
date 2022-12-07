@@ -10,31 +10,30 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-}
 
-.noFavoriteCards{
-    font-size: 30px;
-}
+    .buttons {
+        button {
+            background-color: inherit;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color .3s, font-size .3s;
+        }
 
-.starButton{
+        .active {
+            color: gold;
+            font-size: 25px;
+            font-weight: bold;
+        }
 
-    background-color: inherit;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    transition: color .3s , font-size .3s;
-}
+        .remove:hover{
+            color: $color-warning
 
+        }
 
-.active{
-    color: gold;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.starButton:hover{
-    color: gold;
-    font-size: 22px;
-    font-weight: bold;
+        .star:hover{
+            color: gold;
+        }
+    }
 }
 
