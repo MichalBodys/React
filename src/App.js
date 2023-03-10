@@ -7,8 +7,7 @@ import About from './components/About/About'
 import { Routes, Route } from 'react-router-dom';
 import Error from './components/Error/Error';
 import List from './components/List/List'
-import { updateSearchString } from './redux/store';
-import { useDispatch } from 'react-redux';
+
 
 
 const App = () => {
